@@ -1,8 +1,14 @@
-# Use a imagem base adequada para seu projeto
+# Use a imagem oficial do Python como base
 FROM python:3.9
 
-# Copie o arquivo de código para o contêiner
-COPY app.py /app.py
+# Defina o diretório de trabalho no contêiner
+WORKDIR /app
 
-# Comando para executar o código quando o contêiner iniciar
-CMD ["python", "/app.py"]
+# Copie o arquivo Python para o diretório de trabalho
+COPY app.py .
+
+# Exponha a porta 8080
+EXPOSE 8080
+
+# Comando para iniciar o servidor web
+CMD ["python", "app.py"]
