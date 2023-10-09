@@ -8,14 +8,14 @@ Este projeto foi desenvolvido como parte do curso Engenharia de Software na Unie
 
 # Configuração do Ambiente de Desenvolvimento
 
-Antes de começar a trabalhar no projeto, você precisa configurar o ambiente de desenvolvimento. Certifique-se de seguir as etapas abaixo para preparar seu ambiente:
+Antes de começar a trabalhar no projeto, você precisa configurar o ambiente de desenvolvimento. Certifique-se de seguir as etapas abaixo para preparar seu ambiente.
 
-# Pré-requisitos:
+# Pré-requisitos
 
-1. Docker: Você deve ter o Docker instalado em sua máquina. Você pode baixá-lo em Docker.
+1. Docker: Você deve ter o Docker instalado em sua máquina. Você pode baixá-lo em Docker;
 2. Visual Studio Code: Ou outra IDE de sua escolha para escrever código.
 
-# Clonando o Repositório:
+# Clonando o Repositório
 
 1. Clone este repositório em sua máquina local:
     - git clone https://github.com/Leonelzin/Software-para-Servi-os
@@ -23,14 +23,14 @@ Antes de começar a trabalhar no projeto, você precisa configurar o ambiente de
 2. Navegue até a pasta do projeto:
     - cd seu-projeto
 
-# Configurando o Docker:
+# Configurando o Docker
 
 Dentro do diretório do projeto, crie um arquivo chamado Dockerfile para definir a configuração do ambiente Docker. Aqui está um exemplo básico:
 
-# Use a imagem base adequada para seu projeto
+# Use a imagem base adequada para seu projeto:
     - FROM ubuntu:20.04
 
-# Instale as dependências necessárias
+# Instale as dependências necessárias:
     - RUN apt-get update && apt-get install -y software-properties-common
 
 # Construa a imagem Docker executando o seguinte comando, substituindo nome-da-sua-imagem pelo nome que deseja para a imagem:
@@ -41,7 +41,7 @@ Dentro do diretório do projeto, crie um arquivo chamado Dockerfile para definir
 
 Isso permitirá que você execute o seu projeto em um contêiner Docker.
 
-# Uso do Projeto:
+# Uso do Projeto
 
 Aqui, você deve fornecer informações sobre como utilizar o seu projeto. 
 Explique como iniciar o projeto, quaisquer configurações necessárias e como interagir com ele.
