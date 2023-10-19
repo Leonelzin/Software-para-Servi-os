@@ -1,3 +1,6 @@
+# Alunos: Douglas Leonel & Luiz Neuwirth
+# Matrículas: 2110213 & 2111287
+
 # Imagem PHP Apache
 FROM php:7.4-apache
 
