@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 RUN docker-php-ext-install pdo pdo_mysql mysqli intl zip
 
 # Configurando o PHP
-RUN echo "date.timezone = 'America/Sao_Paulo'" >> /usr/local/etc/php/php.ini
+RUN echo "date.timezone = 'America/Sao_Paulo'" >> /usr/local/etc/php/index.php
 
 # Habilitando o módulo Apache de reescrita
 RUN a2enmod rewrite
